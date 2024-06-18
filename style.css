@@ -2,9 +2,16 @@
 .custom-img {
     max-width: 100%;
     height: auto;
-    width: 150px; /* Set a fixed width */
+    width: 150px; 
   }
   h1 {
 
     text-align: center;
+  }
+  .carousel-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 200px; 
+    object-fit: cover;
   }
