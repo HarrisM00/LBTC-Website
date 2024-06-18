@@ -4,11 +4,10 @@
     height: auto;
     width: 150px; 
   }
-  h1 {
+  body {
+    background-color: rgba(226, 226, 226, 0.8)
+}
 
-    text-align: center;
-    color: rgb(219, 125, 3);
-  }
   .carousel-item img {
     display: block;
     margin: 0 auto;
@@ -16,12 +15,8 @@
     height: 200px; 
     object-fit: cover;
   }
-h2 {
-    color: blanchedalmond;
-}
-h5 {
-    color: rgb(219, 125, 3);
-}
-h3,h4 {
+
+h3,h4,h5,h1,h2,p     {
+    text-align: center;
     color:rgb(219, 125, 3)
 }
